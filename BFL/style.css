@@ -97,6 +97,22 @@
     -webkit-column-break-before: #615151;
    }
 
+   /*Taller*/
+   .taller iframe{
+    width: 450px;
+    height: 300px;
+   }
+   .foto{
+    width: 450px;
+    height: 300px;
+   }
+   .cursos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   }
+
    /*Piecito*/
    .piecito{
     font-size: 1.2rem;
@@ -167,3 +183,19 @@
         font-size: 1.2rem;
     }
    }
+   @media screen and (max-width:900px) {
+    .cursos{
+        flex-direction: column;
+    }
+    .foto{
+        width: 350px;
+        height: 200px;
+    }
+    .taller iframe{
+        width: 350px;
+        height: 200px;
+       }
+    .taller h3{
+        font-size: 1.5rem;
+    }
+    }
