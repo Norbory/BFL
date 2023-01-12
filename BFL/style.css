@@ -126,6 +126,23 @@
     align-items: center;
    }
 
+   /*Jugadores*/
+   .jugador1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 99, 71);
+    display: none;
+   }
+   .jugador1 .palabras{
+    margin-left: 25px;
+   }
+   .jugador1-foto{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 120px;
+   }
+
    /*Piecito*/
    .piecito{
     font-size: 1.2rem;
@@ -177,6 +194,14 @@
     .hero-principal h2{
         font-size: 1.5rem;
     }
+    .jugador1{
+        flex-direction: column;
+    }
+    .jugador1-foto{
+        margin-left: 200px;
+        width: 180px;
+        height: 100px;
+    }
    }
    @media screen and (max-width:500px) {
     .encabeza h1{
@@ -194,6 +219,11 @@
     }
     .hero-principal h2{
         font-size: 1.2rem;
+    }
+    .jugador1-foto{
+        margin-left: 120px;
+        width: 120px;
+        height: 50px;
     }
    }
    @media screen and (max-width:900px) {

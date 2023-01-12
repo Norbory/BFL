@@ -85,7 +85,7 @@
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-        </button>
+        </button> 
       </div>
     </section>
 
@@ -96,20 +96,27 @@
     <section class="staff hero container-fluid">
         <div class="hero-principal d-flex flex-column justify-content-center align-items-center col">
             <img class="hero-perfil rounded-circle shadow p-3 mb-5 bg-white rounded" src="images/b.PNG" alt="foto inicial">
-            <h1>Poul Skov: Coach asistente para desarrollo de jugadores</h1>
-            <h2>Encargado de rehabilitacion y preparacion muscular</h2>
         </div>
         <div class="hero-principal d-flex flex-column justify-content-center align-items-center col">
-          <img class="hero-perfil rounded-circle shadow p-3 mb-5 bg-white rounded" src="images/Angel.png" alt="foto inicial">
-            <h1>Angelo Mandros: Coach general y capitan</h1>
-            <h2>Encargado de seleccion de jugadores</h2>
+          <img class="hero-perfil rounded-circle shadow p-3 mb-5 bg-white rounded" onclick="muestra()" src="images/Angel.png" alt="foto inicial">
         </div>
         <div class="hero-principal d-flex flex-column justify-content-center align-items-center col">
           <img class="hero-perfil rounded-circle shadow p-3 mb-5 bg-white rounded" src="images/b.PNG" alt="foto inicial">
-          <h1>Gabriel: Coach asistente tactico y co-capitan</h1>
-          <h2>Encargado de rutinas y desarrollo de jugadas</h2>
         </div>
     </section>
+
+    <!--Jugador seleccionado-->
+    <div class="jugador1 container-fluid">
+      <div class="palabras d-flex flex-column justify-content-center col">
+        <h1>Angelo Mandros</h1>
+        <h2>Capitan Crows La Molina</h2>
+        <h4>Posicion centro del equipo, encargado de la seleccion de jugadores e instructor de los entrenamientos</h4>
+        <button type="button" onclick="oculta()" class="btn btn-outline-light">Ocultar</button>
+      </div>
+      <div class="jugador1-foto col">
+        <img class="rounded" src="./images/yo1.png" alt="Perfil Angelo">
+      </div>
+    </div>
 
     <!--Talleres-->
     <section class="taller">
